@@ -1,9 +1,8 @@
 package com.springboot.serverbox.data.dto;
 
-import lombok.Getter;
-import lombok.Setter;
-@Getter
-@Setter
+import lombok.Data;
+
+@Data
 public class MemberDto {
 
     private String name;
